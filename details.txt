@@ -1,0 +1,1435 @@
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:26
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:26.9691278Z" />
+    <EventRecordID>236139</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:26
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:26.9691278Z" />
+    <EventRecordID>236138</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="10900" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-TPM-WMI
+Date:          25/06/2025 18:57:18
+Event ID:      1796
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-SIN53GC
+Description:
+The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-TPM-WMI" Guid="{7d5387b0-cbe0-11da-a94d-0800200c9a66}" />
+    <EventID>1796</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:18.7899451Z" />
+    <EventRecordID>236137</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="19756" ThreadID="8548" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="HResult">-2147020471</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-TPM-WMI
+Date:          25/06/2025 18:57:18
+Event ID:      1796
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-SIN53GC
+Description:
+The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-TPM-WMI" Guid="{7d5387b0-cbe0-11da-a94d-0800200c9a66}" />
+    <EventID>1796</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:18.7899301Z" />
+    <EventRecordID>236136</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="19756" ThreadID="8548" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="HResult">-2147020471</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:18
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:18.0348686Z" />
+    <EventRecordID>236135</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:18
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:18.0348686Z" />
+    <EventRecordID>236134</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="10900" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:11
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:11.1141559Z" />
+    <EventRecordID>236133</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:11
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:11.1141559Z" />
+    <EventRecordID>236132</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15832" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:00
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:00.7679998Z" />
+    <EventRecordID>236131</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:57:00
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:57:00.7679998Z" />
+    <EventRecordID>236130</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="10900" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:56:51
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:56:51.8153509Z" />
+    <EventRecordID>236129</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:56:51
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:56:51.8153509Z" />
+    <EventRecordID>236128</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15832" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:56:44
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:56:44.8731435Z" />
+    <EventRecordID>236127</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:56:44
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:56:44.8731435Z" />
+    <EventRecordID>236126</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="10900" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:34
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:34.1677996Z" />
+    <EventRecordID>236125</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:34
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:34.1677996Z" />
+    <EventRecordID>236124</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15832" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:25
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:25.2358174Z" />
+    <EventRecordID>236121</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:25
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:25.2358174Z" />
+    <EventRecordID>236120</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="10900" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:18
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:18.3063845Z" />
+    <EventRecordID>236119</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:18
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:18.3063845Z" />
+    <EventRecordID>236118</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="2892" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:07
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:07.9782685Z" />
+    <EventRecordID>236117</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:55:07
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:55:07.9782685Z" />
+    <EventRecordID>236116</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="2892" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:59
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:59.0558163Z" />
+    <EventRecordID>236115</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:59
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:59.0558163Z" />
+    <EventRecordID>236114</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15832" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:52
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:52.1201034Z" />
+    <EventRecordID>236113</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:52
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:52.1201034Z" />
+    <EventRecordID>236112</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15832" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:41
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:41.6409752Z" />
+    <EventRecordID>236111</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:41
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:41.6409752Z" />
+    <EventRecordID>236110</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="2892" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:32
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:32.7046044Z" />
+    <EventRecordID>236109</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:32
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:32.7046044Z" />
+    <EventRecordID>236108</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="1472" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:25
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:25.7663446Z" />
+    <EventRecordID>236106</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:25
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:25.7663446Z" />
+    <EventRecordID>236105</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="1472" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:15
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 10000 milliseconds: Run the configured recovery program.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:15.2752433Z" />
+    <EventRecordID>236104</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">3</Data>
+    <Data Name="param3">10000</Data>
+    <Data Name="param4">3</Data>
+    <Data Name="param5">Run the configured recovery program</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:15
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:15.2752433Z" />
+    <EventRecordID>236103</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15820" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:06
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 8000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:06.3349437Z" />
+    <EventRecordID>236102</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">2</Data>
+    <Data Name="param3">8000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:54:06
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:54:06.3349437Z" />
+    <EventRecordID>236101</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="15820" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:53:59
+Event ID:      7031
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 6000 milliseconds: Restart the service.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7031</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:53:59.4056587Z" />
+    <EventRecordID>236097</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="4564" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">1</Data>
+    <Data Name="param3">6000</Data>
+    <Data Name="param4">1</Data>
+    <Data Name="param5">Restart the service</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          25/06/2025 18:53:59
+Event ID:      7023
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-SIN53GC
+Description:
+The NVIDIA LocalSystem Container service terminated with the following error: 
+A generic command executable returned a result that indicates failure.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7023</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2025-06-25T16:53:59.4056587Z" />
+    <EventRecordID>236096</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1292" ThreadID="1916" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-SIN53GC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">NVIDIA LocalSystem Container</Data>
+    <Data Name="param2">%%14109</Data>
+    <Binary>4E00760043006F006E007400610069006E00650072004C006F00630061006C00530079007300740065006D000000</Binary>
+  </EventData>
+</Event>
